@@ -1,0 +1,40 @@
+# Arquivo .gitignore para Projeto MERN Stack
+
+# --------------------------
+# Dependências e Builds
+# --------------------------
+
+# Arquivos de dependências do Node.js
+# Contém milhares de arquivos, deve ser ignorado para manter o repositório leve
+node_modules
+/dist
+/build
+
+# --------------------------
+# Variáveis de Ambiente e Arquivos de Configuração
+# --------------------------
+
+# Credenciais e chaves
+.env
+.env.local
+.env.development
+.env.production
+
+# --------------------------
+# Logs
+# --------------------------
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --------------------------
+# Configurações Específicas do VS Code
+# --------------------------
+# Guarda o histórico de arquivos abertos e outras configurações locais.
+.vscode/
+
+# --------------------------
+# Arquivos de Sistema (Mac/Windows)
+# --------------------------
+.DS_Store # Arquivos de metadados do macOS
+Thumbs.db # Arquivos de metadados do Windows
